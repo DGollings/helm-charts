@@ -56,7 +56,7 @@ spec:
               mountPath: /var/lib/kubelet/pods
               mountPropagation: "Bidirectional"
             - name: iscsiadm
-              mountPath: /sbin/iscsiadm
+              mountPath: /usr/sbin/iscsiadm
             - name: all-plugin-dir
               mountPath: /var/lib/kubelet/plugins
             - name: plugin-dir
@@ -100,7 +100,7 @@ spec:
             type: DirectoryOrCreate
         - name: iscsiadm
           hostPath:
-            path: /sbin/iscsiadm
+            path: /usr/sbin/iscsiadm
             type: File
         - name: dev
           hostPath:
