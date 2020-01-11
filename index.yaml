@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  csi-packet:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-01-11T12:59:44.7488047+01:00"
+    description: A Helm chart for Packet's Container Storage Interface implementation
+    digest: 375b0932782314e6336b53522328037d88cbf062a921bcce61ca1ab0468dba1a
+    name: csi-packet
+    sources:
+    - https://github.com/packethost/csi-packet
+    - https://github.com/packet-labs/helm-charts/csi-packet
+    urls:
+    - csi-packet-0.1.0.tgz
+    version: 0.1.0
+  packet-ccm:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-01-11T12:59:44.7489541+01:00"
+    description: A Helm chart for Packet's Cloud Controller Manager implementation
+    digest: 5a9a66a7ab046de2848b078c9f97b1b8315396810f5ae5d5e5de8c37fc17b593
+    name: packet-ccm
+    sources:
+    - https://github.com/packethost/packet-ccm
+    - https://github.com/packet-labs/helm-charts/packet-ccm
+    urls:
+    - packet-ccm-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-01-11T12:59:44.7482825+01:00"
